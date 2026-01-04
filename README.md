@@ -23,7 +23,7 @@ The assignment required building a scalable product management system with the f
 
 ## 🌐 Live Demo
 
-🔗 **[View Live Application](#)** 
+🔗 **[View Live Application](https://frontend-assignment-grey-labs.netlify.app/)** 
 
 > *Note: The application is deployed on Netlify for evaluation purposes.*
 
@@ -82,18 +82,6 @@ const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
 - ✅ All operations performed on React state
 - ✅ Predictable UI updates without cascading effects
 - ✅ No unnecessary `useEffect` chains
-
-### Component Architecture
-
-```
-App (State Container)
-├── SearchBar (Search Logic)
-├── Toggle (Add/Edit Mode)
-├── ProductForm (Form Management)
-├── ProductList (Data Display)
-│   └── ProductCard[] (Individual Items)
-└── Pagination (Navigation)
-```
 
 ### Image Handling System
 
